@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Montserrat:wght@900&family=Nunito:wght@300;400&family=Open+Sans&family=Poppins:wght@300;400;500;600;700;900&family=Port+Lligat+Slab&display=swap');
+
+*, *::before,*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all .3s linear;
+    
+}
+html
+{
+    font-size: 95%;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    /* scroll-padding: 3rem; */
+}
+
+
+header
+{
+    top: 0; left: 0; right: 0;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem 9%;
+    text-transform: capitalize;
+    
+}
+header .logo
+{
+    font-size: 1.8rem;
+    background: -webkit-linear-gradient( red, #C96C08);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+header .logo img
+{   height: 2.7rem;
+
+}
+header .navbar a
+{
+    font-size: 1.5rem;
+    color: #00ff00;
+    margin-left: 2rem;    
+}
+header .navbar a:hover
+{
+  color: coral;
+}
+
+section
+{
+    padding: 2rem 8%;
+}
+
+.home
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.home .content
+{
+    /* flex: 1 1 40rem; */
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+.home.image
+{
+    /* flex: 1 1 40rem; */ 
+    background: none;
+}
+.home .image img
+{
+    width: 500px;
+    height: 500px;
+    margin-left: 8rem;
+    animation: float 3s infinite;
+}
+ 
+@keyframes float 
+{
+        0%,100%
+        {
+            transform: translateY(0rem);
+        }    
+        50%
+        {
+            transform: translateY(3rem);
+        } 
+
+}
+
+.home h3
+{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 7rem;
+    color: #c61aff;
+}
+
+.home p
+{   padding-top: 2rem;
+    padding-left: 2.5rem;
+    text-align: center;
+}
