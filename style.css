@@ -48,12 +48,12 @@ header .logo img
 header .navbar a
 {
     font-size: 1.5rem;
-    color: #00ff00;
+    color: coral;
     margin-left: 2rem;    
 }
 header .navbar a:hover
 {
-  color: coral;
+  color:cornflowerblue;
 }
 
 section
@@ -108,7 +108,11 @@ section
     font-size: 3rem;
     padding-bottom: 1rem;
     padding-left: 7rem;
-    color: #c61aff;
+   
+}
+.home h3:hover
+{
+    color: #ff8533;
 }
 
 .home p
