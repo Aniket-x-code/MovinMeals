@@ -16,7 +16,7 @@ html
 {
     font-size: 95%;
     scroll-behavior: smooth;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* scroll-padding: 3rem; */
 }
 
@@ -120,3 +120,11 @@ section
     padding-left: 2.5rem;
     text-align: center;
 }
+.men
+{
+    text-align: center;
+    margin-top: 5rem;
+    color:coral;
+}
+
+    
