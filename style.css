@@ -50,15 +50,16 @@ header .navbar a
     font-size: 1.5rem;
     color: coral;
     margin-left: 2rem;    
+    font-weight: 600;
 }
 header .navbar a:hover
 {
-  color:cornflowerblue;
+  color:#A66CFF;
 }
 
 section
 {
-    padding: 2rem 8%;
+    padding: 1rem 8%;
 }
 
 .home
@@ -68,7 +69,8 @@ section
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
+    height:90vh;
 }
 
 .home .content
@@ -134,25 +136,33 @@ section
 {
     position: relative;
     overflow: hidden;
-    padding: 20px;
+    padding: 5px;
 }
 
 .product-category
-{
+{   margin-top: 20px;
     padding: 0 10vw;
     font-size: 40px;
     font-weight: 800;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     text-transform: capitalize;
-text-align: center;
+    text-align: center;
 }
+.product-category:hover
+{
+    color:#A66CFF;
+    transform: rotate(360deg);
+    transition: 1.3s;
+}
+
 
 .product-container
 {
     padding: 0 10vw;
     display: flex;
-    /* overflow-x: auto; */
+    overflow-x: auto;
     scroll-behavior: smooth;
+    overflow-y: hidden;
 }
 .product-container::-webkit-scrollbar
 {
@@ -161,8 +171,8 @@ text-align: center;
 .product-card
 {
     flex: 0 0 auto;
-    width: 350px;
-    height: 450px;
+    width: 410px;
+    height: 550px;
     margin-right: 40px;
 }
 
@@ -250,7 +260,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #fff 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, #fff 100%);
     cursor: pointer;
     z-index: 9;
 }
