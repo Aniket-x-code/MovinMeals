@@ -1,6 +1,6 @@
 # MovinMeals
 
-A meal ordering website built using html ,css and javascript.
+A meal ordering website built using html ,css and javascript. <br>
 The user can order food by filing the form , the backend is build using node js.
 
 ![image](https://user-images.githubusercontent.com/73299058/182669594-a5d97f9d-8f8d-4600-81a6-4af2aad2d690.png)
